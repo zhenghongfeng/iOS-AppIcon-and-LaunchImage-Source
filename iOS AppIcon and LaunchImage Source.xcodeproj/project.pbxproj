@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA8B8D351C48E25700BF2A27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8B8D341C48E25700BF2A27 /* main.m */; };
+		BA8B8D381C48E25700BF2A27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8B8D371C48E25700BF2A27 /* AppDelegate.m */; };
+		BA8B8D3B1C48E25700BF2A27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8B8D3A1C48E25700BF2A27 /* ViewController.m */; };
+		BA8B8D3E1C48E25700BF2A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8B8D3C1C48E25700BF2A27 /* Main.storyboard */; };
+		BA8B8D401C48E25700BF2A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA8B8D3F1C48E25700BF2A27 /* Assets.xcassets */; };
+		BA8B8D431C48E25700BF2A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8B8D411C48E25700BF2A27 /* LaunchScreen.storyboard */; };
+		BA8B8D4E1C48E25700BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8B8D4D1C48E25700BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceTests.m */; };
+		BA8B8D591C48E25800BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8B8D581C48E25800BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA8B8D4A1C48E25700BF2A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8B8D281C48E25700BF2A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8B8D2F1C48E25700BF2A27;
+			remoteInfo = "iOS AppIcon and LaunchImage Source";
+		};
+		BA8B8D551C48E25700BF2A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA8B8D281C48E25700BF2A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA8B8D2F1C48E25700BF2A27;
+			remoteInfo = "iOS AppIcon and LaunchImage Source";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA8B8D301C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS AppIcon and LaunchImage Source.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B8D341C48E25700BF2A27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA8B8D361C48E25700BF2A27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA8B8D371C48E25700BF2A27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA8B8D391C48E25700BF2A27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA8B8D3A1C48E25700BF2A27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA8B8D3D1C48E25700BF2A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA8B8D3F1C48E25700BF2A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA8B8D421C48E25700BF2A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA8B8D441C48E25700BF2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8B8D491C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS AppIcon and LaunchImage SourceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B8D4D1C48E25700BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_AppIcon_and_LaunchImage_SourceTests.m; sourceTree = "<group>"; };
+		BA8B8D4F1C48E25700BF2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8B8D541C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS AppIcon and LaunchImage SourceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8B8D581C48E25800BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_AppIcon_and_LaunchImage_SourceUITests.m; sourceTree = "<group>"; };
+		BA8B8D5A1C48E25800BF2A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8B8D2D1C48E25700BF2A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B8D461C48E25700BF2A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B8D511C48E25700BF2A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA8B8D271C48E25700BF2A27 = {
+			isa = PBXGroup;
+			children = (
+				BA8B8D321C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source */,
+				BA8B8D4C1C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceTests */,
+				BA8B8D571C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceUITests */,
+				BA8B8D311C48E25700BF2A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA8B8D311C48E25700BF2A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B8D301C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source.app */,
+				BA8B8D491C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceTests.xctest */,
+				BA8B8D541C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA8B8D321C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B8D361C48E25700BF2A27 /* AppDelegate.h */,
+				BA8B8D371C48E25700BF2A27 /* AppDelegate.m */,
+				BA8B8D391C48E25700BF2A27 /* ViewController.h */,
+				BA8B8D3A1C48E25700BF2A27 /* ViewController.m */,
+				BA8B8D3C1C48E25700BF2A27 /* Main.storyboard */,
+				BA8B8D3F1C48E25700BF2A27 /* Assets.xcassets */,
+				BA8B8D411C48E25700BF2A27 /* LaunchScreen.storyboard */,
+				BA8B8D441C48E25700BF2A27 /* Info.plist */,
+				BA8B8D331C48E25700BF2A27 /* Supporting Files */,
+			);
+			path = "iOS AppIcon and LaunchImage Source";
+			sourceTree = "<group>";
+		};
+		BA8B8D331C48E25700BF2A27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B8D341C48E25700BF2A27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA8B8D4C1C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B8D4D1C48E25700BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceTests.m */,
+				BA8B8D4F1C48E25700BF2A27 /* Info.plist */,
+			);
+			path = "iOS AppIcon and LaunchImage SourceTests";
+			sourceTree = "<group>";
+		};
+		BA8B8D571C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B8D581C48E25800BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceUITests.m */,
+				BA8B8D5A1C48E25800BF2A27 /* Info.plist */,
+			);
+			path = "iOS AppIcon and LaunchImage SourceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA8B8D2F1C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B8D5D1C48E25800BF2A27 /* Build configuration list for PBXNativeTarget "iOS AppIcon and LaunchImage Source" */;
+			buildPhases = (
+				BA8B8D2C1C48E25700BF2A27 /* Sources */,
+				BA8B8D2D1C48E25700BF2A27 /* Frameworks */,
+				BA8B8D2E1C48E25700BF2A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS AppIcon and LaunchImage Source";
+			productName = "iOS AppIcon and LaunchImage Source";
+			productReference = BA8B8D301C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA8B8D481C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B8D601C48E25800BF2A27 /* Build configuration list for PBXNativeTarget "iOS AppIcon and LaunchImage SourceTests" */;
+			buildPhases = (
+				BA8B8D451C48E25700BF2A27 /* Sources */,
+				BA8B8D461C48E25700BF2A27 /* Frameworks */,
+				BA8B8D471C48E25700BF2A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8B8D4B1C48E25700BF2A27 /* PBXTargetDependency */,
+			);
+			name = "iOS AppIcon and LaunchImage SourceTests";
+			productName = "iOS AppIcon and LaunchImage SourceTests";
+			productReference = BA8B8D491C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA8B8D531C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8B8D631C48E25800BF2A27 /* Build configuration list for PBXNativeTarget "iOS AppIcon and LaunchImage SourceUITests" */;
+			buildPhases = (
+				BA8B8D501C48E25700BF2A27 /* Sources */,
+				BA8B8D511C48E25700BF2A27 /* Frameworks */,
+				BA8B8D521C48E25700BF2A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA8B8D561C48E25700BF2A27 /* PBXTargetDependency */,
+			);
+			name = "iOS AppIcon and LaunchImage SourceUITests";
+			productName = "iOS AppIcon and LaunchImage SourceUITests";
+			productReference = BA8B8D541C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA8B8D281C48E25700BF2A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "郑洪锋";
+				TargetAttributes = {
+					BA8B8D2F1C48E25700BF2A27 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BA8B8D481C48E25700BF2A27 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BA8B8D2F1C48E25700BF2A27;
+					};
+					BA8B8D531C48E25700BF2A27 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BA8B8D2F1C48E25700BF2A27;
+					};
+				};
+			};
+			buildConfigurationList = BA8B8D2B1C48E25700BF2A27 /* Build configuration list for PBXProject "iOS AppIcon and LaunchImage Source" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA8B8D271C48E25700BF2A27;
+			productRefGroup = BA8B8D311C48E25700BF2A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA8B8D2F1C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source */,
+				BA8B8D481C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceTests */,
+				BA8B8D531C48E25700BF2A27 /* iOS AppIcon and LaunchImage SourceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA8B8D2E1C48E25700BF2A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B8D431C48E25700BF2A27 /* LaunchScreen.storyboard in Resources */,
+				BA8B8D401C48E25700BF2A27 /* Assets.xcassets in Resources */,
+				BA8B8D3E1C48E25700BF2A27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B8D471C48E25700BF2A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B8D521C48E25700BF2A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA8B8D2C1C48E25700BF2A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B8D3B1C48E25700BF2A27 /* ViewController.m in Sources */,
+				BA8B8D381C48E25700BF2A27 /* AppDelegate.m in Sources */,
+				BA8B8D351C48E25700BF2A27 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B8D451C48E25700BF2A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B8D4E1C48E25700BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8B8D501C48E25700BF2A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8B8D591C48E25800BF2A27 /* iOS_AppIcon_and_LaunchImage_SourceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA8B8D4B1C48E25700BF2A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8B8D2F1C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source */;
+			targetProxy = BA8B8D4A1C48E25700BF2A27 /* PBXContainerItemProxy */;
+		};
+		BA8B8D561C48E25700BF2A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA8B8D2F1C48E25700BF2A27 /* iOS AppIcon and LaunchImage Source */;
+			targetProxy = BA8B8D551C48E25700BF2A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA8B8D3C1C48E25700BF2A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8B8D3D1C48E25700BF2A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA8B8D411C48E25700BF2A27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA8B8D421C48E25700BF2A27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA8B8D5B1C48E25800BF2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA8B8D5C1C48E25800BF2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA8B8D5E1C48E25800BF2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS AppIcon and LaunchImage Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.iOS-AppIcon-and-LaunchImage-Source";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA8B8D5F1C48E25800BF2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS AppIcon and LaunchImage Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.iOS-AppIcon-and-LaunchImage-Source";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA8B8D611C48E25800BF2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS AppIcon and LaunchImage SourceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.iOS-AppIcon-and-LaunchImage-SourceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS AppIcon and LaunchImage Source.app/iOS AppIcon and LaunchImage Source";
+			};
+			name = Debug;
+		};
+		BA8B8D621C48E25800BF2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS AppIcon and LaunchImage SourceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.iOS-AppIcon-and-LaunchImage-SourceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS AppIcon and LaunchImage Source.app/iOS AppIcon and LaunchImage Source";
+			};
+			name = Release;
+		};
+		BA8B8D641C48E25800BF2A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS AppIcon and LaunchImage SourceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.iOS-AppIcon-and-LaunchImage-SourceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS AppIcon and LaunchImage Source";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA8B8D651C48E25800BF2A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS AppIcon and LaunchImage SourceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhenghongfeng.iOS-AppIcon-and-LaunchImage-SourceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS AppIcon and LaunchImage Source";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA8B8D2B1C48E25700BF2A27 /* Build configuration list for PBXProject "iOS AppIcon and LaunchImage Source" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B8D5B1C48E25800BF2A27 /* Debug */,
+				BA8B8D5C1C48E25800BF2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8B8D5D1C48E25800BF2A27 /* Build configuration list for PBXNativeTarget "iOS AppIcon and LaunchImage Source" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B8D5E1C48E25800BF2A27 /* Debug */,
+				BA8B8D5F1C48E25800BF2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8B8D601C48E25800BF2A27 /* Build configuration list for PBXNativeTarget "iOS AppIcon and LaunchImage SourceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B8D611C48E25800BF2A27 /* Debug */,
+				BA8B8D621C48E25800BF2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA8B8D631C48E25800BF2A27 /* Build configuration list for PBXNativeTarget "iOS AppIcon and LaunchImage SourceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA8B8D641C48E25800BF2A27 /* Debug */,
+				BA8B8D651C48E25800BF2A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA8B8D281C48E25700BF2A27 /* Project object */;
+}
